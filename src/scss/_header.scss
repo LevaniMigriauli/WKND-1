@@ -1,0 +1,52 @@
+.header {
+  &__top {
+    padding: 1rem 28.4rem 0.9rem 99.1rem;
+    background-color: #202020;
+    border: 1px solid #707070;
+    img {
+      max-width: 9.1rem;
+      max-height: 2.1rem;
+    }
+  }
+
+  &-main {
+    padding: 5.6rem 14.1rem;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+
+    .logo {
+      img {
+      }
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      // justify-content: center;
+
+      &-list {
+        display: flex;
+        // justify-content: space-between;
+
+        &-item {
+          a {
+            color: #000;
+            padding: 1.5rem 2rem 1.3rem 2rem;
+          }
+        }
+      }
+
+      input {
+        width: 25.6rem;
+        height: 4.8rem;
+        padding: 1.4rem 0 1.4rem 2rem;
+        background: #ebebeb url(../images//content/Dribbble-Light-Preview.svg);
+        background-repeat: no-repeat;
+        background-position: right 2rem center;
+        border: none;
+        color: #707070;
+      }
+    }
+  }
+}
