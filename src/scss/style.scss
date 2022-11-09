@@ -1,53 +1,13 @@
 body {
-  background: $body-background-color;
-  color: $foreground-color;
-  font-family: "DINP-R", arial, serif;
-  font-size: 1.3em;
 }
 
 #container {
   max-width: 1920px;
-  width: 100%;
-  margin: 0 auto;
-  color: #000;
-
-  .country-selection {
-    font-family: "Bebas Neue";
-    font-size: calc(5px + 1vw);
-    color: $black;
-    background-color: $yellow;
-    margin: 20px auto 100px auto;
-    display: block;
-    height: 30px;
-    width: 25%;
-    border: none;
-    padding: 0 auto;
-
-    option {
-      margin: 0 auto;
-    }
-  }
 
   main {
-    font-size: 2.2rem;
-    font-weight: bold;
-    ul {
-      width: 25%;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      .data {
-      }
-    }
   }
 
   footer {
-    font-size: 1.2rem;
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
 
