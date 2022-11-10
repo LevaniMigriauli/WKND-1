@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="20" viewBox="0 0 60 20">
+  <g id="Group_3014" data-name="Group 3014" transform="translate(-1018 -882)">
+    <g id="WKND-icon" transform="translate(1018 882)">
+      <rect id="background" width="20" height="20" fill="none"/>
+      <g id="Dribbble-Light-Preview" transform="translate(-140 -6639)">
+        <g id="icons" transform="translate(56 160)">
+          <path id="arrow_left-_350_" data-name="arrow_left-[#350]" d="M94,6499l1.435-1.393L87.828,6490H104v-2H87.828l7.586-7.586L94,6479l-10,10,10,10" fill="#202020" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+    <g id="WKND-icon-2" data-name="WKND-icon" transform="translate(1058 882)">
+      <rect id="background-2" data-name="background" width="20" height="20" fill="none"/>
+      <g id="Dribbble-Light-Preview-2" data-name="Dribbble-Light-Preview">
+        <g id="icons-2" data-name="icons">
+          <path id="arrow_left-_350_2" data-name="arrow_left-[#350]" d="M94,6499l-1.435-1.393,7.607-7.607H84v-2h16.172l-7.586-7.586L94,6479l10,10-10,10" transform="translate(-84 -6479)" fill="#202020" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

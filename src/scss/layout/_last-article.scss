@@ -1,0 +1,43 @@
+.section-last-article {
+  .move-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      // margin: 0 auto;
+      width: 50%;
+      margin-top: 1.2rem;
+
+      img:first-child {
+      }
+      div {
+        width: 6rem;
+        height: 2rem;
+        display: flex;
+        gap: 2rem;
+        // position: absolute;
+        // right: 14.7rem;
+      }
+    }
+  }
+
+  .last-article {
+    display: flex;
+
+    &__text-box {
+    }
+
+    &__img-box {
+      max-width: 71.6rem;
+      max-height: 48.7rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

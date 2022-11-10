@@ -1,0 +1,36 @@
+#container {
+  .section-hero {
+    height: 64rem;
+
+    .hero {
+      width: 100%;
+      position: relative;
+
+      &--img-box {
+      }
+
+      &--text-box {
+        padding: 2.4rem 4rem 2rem 4rem;
+        width: 85%;
+        height: 24.6rem;
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        h2 {
+          font-size: 4rem;
+          margin-bottom: 1.2rem;
+        }
+        p {
+          font-size: 2rem;
+          line-height: 4rem;
+          margin-bottom: 2rem;
+        }
+        button {
+        }
+      }
+    }
+  }
+}
