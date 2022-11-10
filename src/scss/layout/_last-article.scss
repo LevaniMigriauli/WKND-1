@@ -1,9 +1,13 @@
 .section-last-article {
+  padding: 0 14.1rem;
+  margin-bottom: 7.2rem;
+
   .move-icons {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 90%;
+    margin-bottom: 7.5rem;
 
     .icons {
       display: flex;
@@ -12,9 +16,15 @@
       width: 50%;
       margin-top: 1.2rem;
 
-      img:first-child {
+      div:first-child {
+        display: flex;
+        width: 5.2rem;
+        justify-content: space-between;
+        img {
+          width: 1rem;
+        }
       }
-      div {
+      div:last-child {
         width: 6rem;
         height: 2rem;
         display: flex;
@@ -25,10 +35,118 @@
     }
   }
 
-  .last-article {
+  .last-article1 {
     display: flex;
 
     &__text-box {
+      padding: 2rem;
+      background-color: $light-gray;
+      max-width: 36.8rem;
+
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      h3 {
+        font-size: 3.6rem;
+        line-height: 6rem;
+      }
+      span {
+        font-size: 2.4rem;
+        letter-spacing: 0.2rem;
+      }
+      p {
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+
+        margin-bottom: 12.3rem;
+      }
+
+      button {
+        align-self: flex-start;
+      }
+    }
+
+    &__img-box {
+      max-width: 71.6rem;
+      max-height: 48.7rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .last-article2 {
+    display: flex;
+
+    &__text-box {
+      padding: 2rem;
+      background-color: $light-gray;
+      max-width: 36.8rem;
+
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      h3 {
+        font-size: 3.6rem;
+        line-height: 6rem;
+      }
+      span {
+        font-size: 2.4rem;
+        letter-spacing: 0.2rem;
+      }
+      p {
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+
+        margin-bottom: 12.3rem;
+      }
+
+      button {
+        align-self: flex-start;
+      }
+    }
+
+    &__img-box {
+      max-width: 71.6rem;
+      max-height: 48.7rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .last-article3 {
+    display: flex;
+
+    &__text-box {
+      padding: 2rem;
+      background-color: $light-gray;
+      max-width: 36.8rem;
+
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      h3 {
+        font-size: 3.6rem;
+        line-height: 6rem;
+      }
+      span {
+        font-size: 2.4rem;
+        letter-spacing: 0.2rem;
+      }
+      p {
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+
+        margin-bottom: 12.3rem;
+      }
+
+      button {
+        align-self: flex-start;
+      }
     }
 
     &__img-box {
