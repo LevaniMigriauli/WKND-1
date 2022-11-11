@@ -16,12 +16,21 @@
       width: 50%;
       margin-top: 1.2rem;
 
-      div:first-child {
+      .dots {
         display: flex;
         width: 5.2rem;
         justify-content: space-between;
-        img {
+        align-items: center;
+
+        button {
           width: 1rem;
+          height: 1rem;
+          border-radius: 50%;
+          border: none;
+        }
+
+        .dots__dot--active {
+          background-color: aqua;
         }
       }
       div:last-child {
@@ -29,19 +38,22 @@
         height: 2rem;
         display: flex;
         gap: 2rem;
-        // position: absolute;
-        // right: 14.7rem;
+
+        img {
+          cursor: pointer;
+        }
       }
     }
   }
 
   .slider {
     position: relative;
+    // overflow: hidden;
     .last-article {
       display: flex;
       position: absolute;
       top: 0;
-      w &__text-box {
+      &__text-box {
         padding: 2rem;
         background-color: $light-gray;
         max-width: 36.8rem;
@@ -76,20 +88,21 @@
 
         img {
           width: 100%;
+          height: 100%;
         }
       }
     }
 
     .slider1 {
-      transform: translateX(0%);
+      // transform: translateX(0%);
     }
 
     .slider2 {
-      transform: translateX(100%);
+      // transform: translateX(100%);
     }
 
     .slider3 {
-      transform: translateX(200%);
+      // transform: translateX(200%);
     }
   }
 }
