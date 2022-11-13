@@ -10,9 +10,35 @@ account.addEventListener("click", function () {
   accountModal.classList.add("display");
 });
 
-btnClose.addEventListener("click", function () {
+const closeModal = function () {
   accountModal.classList.remove("display");
   accountModal.classList.add("hidden");
+};
+
+btnClose.addEventListener("click", closeModal);
+
+document.addEventListener("keydown", function (e) {
+  e.key === "Escape" && closeModal();
+});
+
+// search input
+const btnSearch = document.querySelector(".nav img");
+const inputSearch = document.querySelector(".nav input");
+
+btnSearch.addEventListener("click", function () {
+  inputSearch.textContent = ".visibility";
+  inputSearch.innerText = "";
+  inputSearch.classList.toggle("visibility");
+  inputSearch.classList.toggle("animation");
+});
+
+// scroll to certain section
+const btnAdventures = document.querySelector(".hero--text-box button");
+const sectionNextAdv = document.querySelector(".section-next-adventure");
+btnAdventures.addEventListener("click", function () {
+  sectionNextAdv.scrollIntoView({
+    behavior: "smooth",
+  });
 });
 
 // slider
@@ -20,7 +46,6 @@ const slides = document.querySelectorAll(".last-article");
 const btnLeft = document.querySelector(".btn-left");
 const btnRight = document.querySelector(".btn-right");
 const dotContainer = document.querySelector(".dots");
-console.log(dotContainer);
 
 let curSlide = 0;
 const maxSlide = slides.length;

@@ -18,6 +18,12 @@
 
     .logo {
       img {
+        transition: 1s;
+      }
+
+      img:hover {
+        transform: scale(1.5);
+        transition: 1s;
       }
     }
     .nav {
@@ -25,6 +31,7 @@
       align-items: center;
       gap: 2rem;
       // justify-content: center;
+      position: relative;
 
       &-list {
         display: flex;
@@ -48,11 +55,26 @@
         width: 25.6rem;
         height: 4.8rem;
         padding: 1.4rem 0 1.4rem 2rem;
-        background: #ebebeb url(../images//content/Dribbble-Light-Preview.svg);
-        background-repeat: no-repeat;
-        background-position: right 2rem center;
+        background: #ebebeb;
+        // background: #ebebeb url(../images//content/Dribbble-Light-Preview.svg);
+        // background-repeat: no-repeat;
+        // background-position: right 2rem center;
         border: none;
         color: #707070;
+        transition: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+      }
+
+      .animation {
+        opacity: 0;
+      }
+
+      img {
+        position: absolute;
+        right: 2%;
+        cursor: pointer;
+        // dfgfd
       }
     }
   }
