@@ -1,5 +1,20 @@
 "use strict";
 
+// account sign up
+const account = document.querySelector(".account-logo");
+const accountModal = document.querySelector(".account-modal");
+const btnClose = document.querySelector(".btn-close");
+
+account.addEventListener("click", function () {
+  accountModal.classList.remove("hidden");
+  accountModal.classList.add("display");
+});
+
+btnClose.addEventListener("click", function () {
+  accountModal.classList.remove("display");
+  accountModal.classList.add("hidden");
+});
+
 // slider
 const slides = document.querySelectorAll(".last-article");
 const btnLeft = document.querySelector(".btn-left");

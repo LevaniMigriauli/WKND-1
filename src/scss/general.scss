@@ -10,7 +10,16 @@ html {
   // position: relative;
 }
 
+.display {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
 .account-modal {
+  display: none;
   width: 100vw;
   height: 100vh;
   position: fixed;
