@@ -49,11 +49,12 @@
 
   .slider {
     position: relative;
-    // overflow: hidden;
+
     .last-article {
       display: flex;
       position: absolute;
       top: 0;
+
       &__text-box {
         padding: 2rem;
         background-color: $light-gray;
