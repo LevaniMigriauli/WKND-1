@@ -26,6 +26,13 @@ body {
   display: none !important;
 }
 
+.email-status {
+  width: 3.5rem;
+  position: absolute;
+  left: 28%;
+  bottom: 12%;
+}
+
 .account-modal {
   display: none;
   width: 100vw;

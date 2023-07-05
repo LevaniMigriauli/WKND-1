@@ -49,6 +49,8 @@
 
   .slider {
     position: relative;
+    display: flex;
+    gap: 3rem;
 
     .last-article {
       display: flex;

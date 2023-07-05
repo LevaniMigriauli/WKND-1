@@ -1,4 +1,14 @@
 #container {
+  .logo {
+    img {
+      transition: 1s;
+    }
+
+    img:hover {
+      transform: scale(1.5);
+      transition: 1s;
+    }
+  }
   .footer {
     background-color: #202020;
     display: flex;

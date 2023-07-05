@@ -123,4 +123,26 @@ const slider = function () {
 slider();
 
 // validation
-const inputValidation = document.querySelector(".");
+const signUpContainer = document.querySelector(".sign-up");
+const inputValidation = document.querySelector(".sign-up input");
+const btnSignUp = document.querySelector(".sign-up button");
+
+btnSignUp.addEventListener("click", function () {
+  inputValidation.value.includes("@")
+    ? signUpContainer.insertAdjacentHTML(
+        "beforeend",
+        `<img
+      class="email-status"
+      src="../images/content/success-icon.svg"
+      alt=""
+    />`
+      )
+    : signUpContainer.insertAdjacentHTML(
+        "beforeend",
+        `<img
+class="email-status"
+src="../images/content/unsuccess-icon.svg"
+alt=""
+/>`
+      );
+});
